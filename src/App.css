@@ -1,5 +1,3 @@
-
-
 .App-link {
   color: #61dafb;
 }
@@ -11,4 +9,77 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* custom-css    */
+.bg-dark {
+  background-color: #3A4256;
+}
+
+.custom-dark {
+  color: #3A4256;
+}
+
+.bg-primary {
+  background-color: #1ED2D4;
+}
+
+.custom-primary {
+  color: #1ED2D4;
+}
+
+.btn-custom {
+  font-weight: 600 !important;
+  padding: 10px !important;
+  border-radius: 5px !important;
+  background: linear-gradient(to right, #18D2B5 0%, #10CFE6 100%) !important;
+  color: white !important;
+}
+
+.dashboard-bg {
+  background-color: lightcyan;
+}
+
+.custom-height {
+  height: 507px !important;
+}
+
+.btn-main {
+  background-color: #1ED2D4 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  padding: 10px !important;
+}
+
+.cursor {
+  font-weight: 700;
+  color: #1ED2D4;
+  cursor: pointer;
+}
+
+/* status-color */
+.book-Pending {
+  background-color: #DC3545;
+}
+
+.book-On-Going {
+  background-color: #0DCAF0;
+}
+
+.book-Done {
+  background-color: #198754;
+}
+
+/* checkout-underLine */
+.checkout-header-underline::after{
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  background-color: #1ED2D4;
+}
+.title-text {
+  color: #1ED2D4;
 }
